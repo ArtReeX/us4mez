@@ -1,0 +1,1036 @@
+/************************************************/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Bad Script|Comfortaa|Lobster');
+
+
+/************************************************/
+.tooltip 
+{
+  position: relative;
+}
+
+.tooltip em 
+{
+  display: none;
+}
+
+.tooltip:hover em 
+{
+  display: block;
+
+  font-style: normal;
+  position: absolute;
+
+  background: #000;
+  color: #FFF;
+
+  padding: 3px 5px;
+  bottom: 22px;
+
+  left: 0;
+
+  box-shadow: 0 0 5px #ccc;
+
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  -moz-box-shadow: 0 0 5px #ccc;
+}
+
+.tooltip:hover em i 
+{
+  position: absolute;
+  bottom: -7px;
+  right: 5px;
+  border-top: 7px solid #000;
+  border-left: 7px solid transparent;
+  display: block;
+}
+
+
+/************************************************/
+body
+{
+    background-image: url(/style/images/fon.jpg);
+    background-color: #FFF8DC;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 98%;
+    width: 98%;
+}
+
+
+/************************************************/
+.header
+{
+  display: inline-block;
+  
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  width: 98%;
+  min-width: 900px;
+}
+
+.header-Left
+{
+  float: left;
+
+  width: 15%;
+
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: #4B0082;
+  font-size: 20pt; 
+}
+
+.header-Center
+{
+   float: left;
+   
+   margin-left: 5%;
+
+   width: 60%;
+
+   text-align: center;
+
+   font-family: Lobster; 
+   color: #BC8F8F;
+   font-size: 40pt; 
+}
+
+.header-Right
+{
+   float: right;
+   
+   margin-left: 5%;
+
+   width: 15%;
+
+   text-align: right;
+}
+
+.header-Right img
+{
+   width: 100%;
+}
+
+
+/************************************************/
+.footer
+{
+  display: inline-block;
+
+  width: 98%;
+  min-width: 400px;
+  
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.footer-Center
+{
+  float: left;
+
+  left: 0;
+  bottom: 0;
+  
+  width: 100%;
+  height: 80px;
+
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #4B0082;
+  font-size: 8pt;
+}
+
+
+/************************************************/
+.main
+{
+    display: inline-block;
+    
+    width: 100%;
+    min-width: 900px;
+    
+    margin-top: 1%;
+    margin-bottom: 1%;
+} 
+
+/************************************************/
+.categories
+{
+  width: 25%;
+
+  display: block; 
+
+  background-color: #E39c66;
+
+  border-radius: 5px;
+  
+  float: left;
+}
+
+.categories-Caption
+{
+  text-align: left;
+  
+  margin: 1%;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 18pt;
+  padding: 10px;
+}
+
+.categories-Name
+{
+  text-align: left;
+  
+  
+  font-family: Comfortaa; 
+  color: #42b2727;
+  font-size: 14pt;
+  padding: 5px;
+}
+
+
+/************************************************/
+.ads
+{
+  display: block; 
+  
+  width: 50%;
+
+  float: left;
+  
+  margin-left: 2%;
+}
+
+.ads-Row
+{
+  display: inline-block;
+  
+  width: 94%;
+  
+  margin: 3%;
+  
+  background-color: #e5c097;
+
+  text-align: center;
+
+  font-family: Comfortaa;
+  
+}
+
+.ads-Row-Header
+{
+  display: inline-block;
+  
+  width: 94%;
+}
+
+.ads-Row-Header-Caption
+{
+  width: 94%;
+  
+  margin-top: 2%;
+  
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: #000000;
+  font-size: 18pt; 
+}
+
+.ads-Row-Header-Type
+{
+  display: block; 
+  
+  width: 15%;
+  
+  margin-top: 3%;
+  margin-left: 2%;
+
+  float: left;
+  
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: red;
+  font-size: 10pt;
+}
+
+.ads-Row-Header-Category
+{
+  float: left;
+
+  margin-left: 25%;
+  
+  margin-top: 3%;
+  
+  width: 30%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #000000;
+  font-size: 12pt;
+}
+
+.ads-Row-Header-Time
+{
+  float: right;
+
+  margin-left: 5%;
+  
+  margin-top: 3%;
+  
+  width: 15%;
+  
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: #595050;
+  font-size: 10pt;
+}
+
+.ads-Row-Subheader
+{
+  float: right;
+
+  margin-left: 60%;
+  margin-right: 5%;
+  margin-top: 2%;
+  
+  width: 35%;
+  
+  text-align: right;
+  
+  font-family: Bad Script; 
+  color: #000000;
+  font-size: 12pt;
+}
+
+.ads-Row-Main
+{
+  display: inline-block;
+  
+  width: 94%;
+  
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.ads-Row-Main-Photo
+{
+  float: left;
+
+  width: 25%;
+  
+  text-align: left;
+}
+
+.ads-Row-Main-Photo img
+{
+  width: 100%;
+  min-width: 150px;
+
+  border-radius: 5px;
+}
+
+.ads-Row-Main-Text
+{
+  float: right;
+
+  margin-left: 2%;
+
+  width: 60%;
+  
+  text-align: left;
+
+  font-family: Open Sans; 
+  color: #000000;
+  font-size: 11pt;
+}
+
+
+/************************************************/
+.authors
+{
+  width: 20%;
+
+  display: block; 
+
+  background-color: #E39c66;
+
+  border-radius: 5px;
+  
+  float: right;
+
+  margin-left: 2%;
+}
+
+.authors-Caption
+{
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 18pt;
+  padding: 10px;
+}
+
+.authors-Login
+{
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 10pt;
+  padding: 5px;
+}
+
+
+/************************************************/
+.ad-Page
+{
+  display: inline-block; 
+  
+  width: 100%;
+  
+  min-width: 900px;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt;
+}
+
+.ad-Main
+{
+  display: block; 
+  
+  width: 75%;
+
+  float: left;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt;
+}
+
+
+.ad-Main-Header
+{
+  display: inline-block; 
+  
+  width: 94%;
+  
+  margin: 3%;
+  
+  text-align: center;
+  
+  background-color: #35a8b8;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt;
+}
+
+.ad-Main-Subheader
+{
+  display: inline-block; 
+  
+  width: 94%;
+  
+  margin: 3%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 18pt;
+}
+
+.ad-Main-Subheader-Category
+{
+  display: block; 
+  
+  width: 46%;
+  
+  margin-left: 4%;
+
+  float: left;
+  
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt;
+}
+
+
+.ad-Main-Subheader-Type
+{
+  display: block; 
+  
+  width: 10%;
+  
+  margin-top: 1%;
+  margin-left: 2%;
+
+  float: left;
+  
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: red;
+  font-size: 10pt;
+}
+
+
+.ad-Main-Subheader-Author
+{
+  display: block; 
+  
+  width: 10%;
+  
+  margin-left: 5%;
+
+  float: left;
+  
+  text-align: left;
+  
+  font-family: Bad Script; 
+  color: #000000;
+  font-size: 12pt;
+}
+
+.ad-Main-Subheader-Time
+{
+  display: block; 
+  
+  float: right;
+
+  margin-left: 5%;
+  
+  width: 15%;
+  
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: #595050;
+  font-size: 10pt;
+}
+
+
+.ad-Main-Content
+{
+  display: block; 
+  
+  float: left;
+
+  margin: 3%;
+  
+  width: 94%;
+  
+  text-align: left;
+  
+  background-color: #e5c293;
+  
+  font-family: Open Sans; 
+  color: #595050;
+  font-size: 11pt;
+}
+
+
+.ad-Main-Content-Text
+{
+  display: inline-block; 
+
+  margin: 3%;
+  
+  width: 94%;
+  
+  text-align: left;
+  
+  font-family: Open Sans; 
+  color: #595050;
+  font-size: 11pt;
+}
+
+
+.ad-Main-Content-Photo
+{
+  float: left;
+
+  width: 94%;
+  
+  margin: 3%;
+  
+  text-align: left;
+}
+
+.ad-Main-Content-Photo img
+{
+  width: 100%;
+  min-width: 90%;
+
+  border-radius: 5px;
+}
+
+
+.ad-Main-Content-Info
+{
+  display: block; 
+  
+  width: 94%;
+  
+  margin: 3%;
+
+  float: right;
+
+}
+
+.ad-Main-Content-Info-Mail
+{
+  display: block; 
+  
+  text-align: right;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 10pt;
+  padding: 5px;
+}
+
+.ad-Main-Content-Info-Phone
+{
+  display: block; 
+  
+  text-align: right;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 10pt;
+  padding: 5px;
+}
+
+.ad-Main-Content-Info-Name
+{
+  display: block; 
+  
+  text-align: right;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 10pt;
+  padding: 5px;
+}
+
+
+/************************************************/
+.add-Ad-Main
+{
+  display: block; 
+  
+  float: left;
+
+  margin: 3%;
+  
+  width: 94%;
+  
+  text-align: left;
+  
+  font-family: Open Sans; 
+  color: #595050;
+  font-size: 11pt;    
+}
+
+.add-Ad-Main-Info
+{
+  display: block; 
+  
+  float: left;
+
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  width: 60%;
+  
+  text-align: center;
+  
+  background-color: #35a8b8;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.add-Ad-Main-Row
+{
+  display: inline-block; 
+
+  margin-top: 1%;
+  
+  width: 100%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.add-Ad-Main-Button
+{
+  display: block; 
+  
+  margin-top: 1%;
+  
+  margin-left: 30%;
+  margin-right: 30%;
+  
+  width: 40%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 13pt; 
+}
+
+/************************************************/
+.del-Ad-Main
+{
+  display: block; 
+  
+  float: left;
+
+  margin: 3%;
+  
+  width: 94%;
+  
+  text-align: left;
+  
+  font-family: Open Sans; 
+  color: #595050;
+  font-size: 11pt;    
+}
+
+.del-Ad-Main-Info
+{
+  display: block; 
+  
+  float: left;
+
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  width: 60%;
+  
+  text-align: center;
+  
+  background-color: #35a8b8;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.del-Ad-Main-Row
+{
+  display: inline-block; 
+
+  margin-top: 1%;
+  margin-left: 30%;
+  
+  width: 100%;
+  
+  text-align: left;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.del-Ad-Main-Button
+{
+  display: block; 
+  
+  margin-top: 1%;
+  
+  margin-left: 30%;
+  margin-right: 30%;
+  
+  width: 40%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 13pt; 
+}
+
+/************************************************/
+.reg-Main
+{
+  display: block; 
+  
+  float: left;
+
+  margin: 3%;
+  
+  width: 94%;
+  
+  text-align: left;
+  
+  font-family: Open Sans; 
+  color: #595050;
+  font-size: 11pt;    
+}
+
+.reg-Main-Info
+{
+  display: block; 
+  
+  float: left;
+
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  width: 60%;
+  
+  text-align: center;
+  
+  background-color: #35a8b8;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.reg-Main-Row
+{
+  display: inline-block; 
+
+  margin-top: 1%;
+  
+  width: 100%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.reg-Main-Input
+{
+  width: 15%;
+    
+  text-align: center;
+}
+
+.reg-Main-Button
+{  
+  margin-left: 30%;
+  margin-right: 30%;
+  
+  width: 40%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 13pt; 
+}
+
+/************************************************/
+.panel-Main
+{
+  display: block; 
+  
+  float: left;
+
+  margin: 3%;
+  
+  width: 94%;
+  
+  text-align: left;
+  
+  font-family: Open Sans; 
+  color: #595050;
+  font-size: 11pt;    
+}
+
+.panel-Main-Info
+{
+  display: block; 
+  
+  float: left;
+
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  width: 60%;
+  
+  text-align: center;
+  
+  background-color: #35a8b8;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.panel-Main-Row
+{
+  display: inline-block; 
+
+  margin-top: 1%;
+  
+  width: 100%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.panel-Main-Input
+{
+  width: 15%;
+    
+  text-align: center;
+}
+
+.panel-Main-Button
+{  
+  margin-left: 30%;
+  margin-right: 30%;
+  
+  width: 40%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 13pt; 
+}
+
+.panel-Main-Button-Exit
+{  
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 5%;
+  
+  width: 20%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 11pt; 
+}
+
+/************************************************/
+.login-Main
+{
+  display: block; 
+  
+  float: left;
+
+  margin: 3%;
+  
+  width: 94%;
+  
+  text-align: left;
+  
+  font-family: Open Sans; 
+  color: #595050;
+  font-size: 11pt;    
+}
+
+.login-Main-Info
+{
+  display: block; 
+  
+  float: left;
+
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  width: 60%;
+  
+  text-align: center;
+  
+  background-color: #35a8b8;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.login-Main-Row
+{
+  display: inline-block; 
+
+  margin-top: 1%;
+  
+  width: 100%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 15pt; 
+}
+
+.login-Main-Input
+{
+  width: 15%;
+    
+  text-align: center;
+}
+
+.login-Main-Button
+{  
+  margin-left: 30%;
+  margin-right: 30%;
+  
+  width: 40%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  font-size: 13pt; 
+}
+
+.login-Main-Button-Reg
+{  
+  margin-left: 30%;
+  margin-right: 30%;
+  
+  width: 40%;
+  
+  text-align: center;
+  
+  font-family: Comfortaa; 
+  color: #2b2727;
+  background-color: burlywood;
+  font-size: 13pt; 
+}
